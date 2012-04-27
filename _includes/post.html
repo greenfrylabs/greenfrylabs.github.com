@@ -1,7 +1,7 @@
 <div class='post'>
   <h2 class='title'>{{ post.title }}</h2>
   <h3><a href='{{ post.url }}'>Permalink</a></h3>
-  <div class='byline'>{{ post.date | date:"%B %d, %Y" }}Sexton</div>
+  <div class='byline'>{{ post.date | date:"%B %d, %Y" }}</div>
   <div class='body'>
     {% if hide_extended %}
     {{ post.content }}
