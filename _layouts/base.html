@@ -5,6 +5,7 @@
     <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
     <!--[if lt IE 9]><script type='text/javascript' src='assets/javascript/html5.js'></script><![endif]-->
     <script type='text/javascript' src='assets/javascript/prettify.js'></script>
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <link rel='stylesheet' type='text/css' href='/assets/css/skeleton/stylesheets/base.css' />
     <link rel='stylesheet' type='text/css' href='/assets/css/skeleton/stylesheets/skeleton.css' />
     <link rel='stylesheet' type='text/css' href='/assets/css/prettify.css' />
@@ -12,21 +13,27 @@
   </head>
 
   <body onload='prettyPrint()'>
-    <div class='container'>
-      <header class='sixteen columns'>
-        <div class='nine columns alpha'>
-          <h1>My GitHub project</h1>
-          <h2>My projects description</h2>
-
-          <p>Longer description of your project here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer convallis erat sit amet leo hendrerit in laoreet diam tempus. Morbi luctus congue purus id ultrices. Aliquam erat volutpat. Sed facilisis lacus nec sapien venenatis ultrices. In vel erat nisi, vel posuere tortor. Phasellus pharetra nunc at odio euismod rutrum.</p>
+    <div class='header-container'>
+      <div class='container'>
+        <header class='sixteen columns'>
+        <div class='nine columns alpha header-logo'>
+          <!--img class="masthead-logo" src="/assets/images/greenfrylabs-logo.svg" type="image/svg+xml"-->
+          <img class="masthead-logo" src="/assets/images/greenfrylabs-logo.png">
         </div>
+        <div class="seven columns alpha header-content">
+          <h1>Built with Love</h1>
+          <h2>Software to make the world a better place</h2>
 
-        <div class='six columns offset-by-one omega'>
-          <a href='https://github.com/greenfrylabs/greenfrylabs.github.com/zipball/master' class='download-button'> Download <span>Latest version from GitHub</span></a>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+          </p>
         </div>
+      </div>
       </header>
+    </div>
+    <div class='container content'>
       <div class='sixteen columns'>
-            {{ content }}
+        {{ content }}
       </div>
     </div>
     <footer>
@@ -40,11 +47,14 @@
       </div>
 
       <div class='sixteen columns credits'>
-        <p>GitHub release template built with HTML5, CSS3 and JS by <a href='http://fublo.net'>Fublo</a></p>
+        <p>
+          A Greenfry Labs creation, built with love. Copyright 2012. All rights reserved.
+        </p>
+
       </div>
     </div>
     </footer>
 
-    <a href='https://github.com/greenfrylabs/greenfrylabs.github.com' class='github-ribbon'><img src='/assets/images/github-ribbons/red.png' /></a>
+    <a href='https://github.com/greenfrylabs/' class='github-ribbon'><img src='/assets/images/github-ribbons/red.png' /></a>
   </body>
 </html>
